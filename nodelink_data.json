@@ -1,0 +1,103 @@
+{
+    "nodes": [
+      {
+        "id": 1,
+        "name": "A",
+        "color": "blue"
+      },
+      {
+        "id": 2,
+        "name": "B",
+        "color": "green"
+      },
+      {
+        "id": 3,
+        "name": "C",
+        "color": "grey"
+      },
+      {
+        "id": 4,
+        "name": "D",
+        "color": "orange"
+      },
+      {
+        "id": 5,
+        "name": "E",
+        "color": "purple"
+      },
+      {
+        "id": 6,
+        "name": "F",
+        "color": "red"
+      },
+      {
+        "id": 7,
+        "name": "G",
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "name": "H",
+        "color": "#bef264"
+      },
+      {
+        "id": 9,
+        "name": "I",
+        "color": "cyan"
+      },
+      {
+        "id": 10,
+        "name": "J",
+        "color": "#0284c7"
+      }
+    ],
+    "links": [
+  
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 1,
+        "target": 6
+      },
+  
+      {
+        "source": 2,
+        "target": 3
+      },
+              {
+        "source": 2,
+        "target": 7
+      }
+      ,
+  
+      {
+        "source": 3,
+        "target": 4
+      },
+       {
+        "source": 8,
+        "target": 3
+      }
+      ,
+      {
+        "source": 4,
+        "target": 5
+      }
+      ,
+  
+      {
+        "source": 4,
+        "target": 9
+      },
+      {
+        "source": 5,
+        "target": 10
+      }
+    ]
+  }
